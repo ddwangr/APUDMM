@@ -15,14 +15,13 @@ The datasets (Tweet, SearchSnippets, and GoogleNews) in the path ./datasets has 
 Taking Tweet as an example, the final dataset file path is as follows.
 
 >datasets
-
 >> Tweet
 >>> word_wiki
-	
+>>> 
 >>> Tweet.txt
-
+>>> 
 >>> Tweet_vocab.txt
-
+>>> 
 >>> Tweet_Word2VecSim.txt
 
 ## 3. Run APU-DMM
@@ -38,19 +37,19 @@ Taking Tweet as an example, the final dataset file path is as follows.
 
 `--ntopics`: Specify the number of topics. The default value is 50.
 
-`--schema`: Specify the file of word similarity matrix.
+`-schema`: Specify the file of word similarity matrix.
 
-`--GPUthreshold`: Specify the threshold for semantic similarity of words.
+`-GPUthreshold`: Specify the threshold for semantic similarity of words.
 
-`--corpus`: Specify the file of the input corpus file.
+`-corpus`: Specify the file of the input corpus file.
 
-`--output`: Specify the path to the output directory. The default output dir is './results/dataname/dataname_ntopics/'.
+`-output`: Specify the path to the output directory. The default output dir is './results/dataname/dataname_ntopics/'.
 
-`--name`: Specify the name of the output file.
+`-name`: Specify the name of the output file.
 
-`--nBurnIn`: Specify the number of BurnIn. The default value is 500.
+`-nBurnIn`: Specify the number of BurnIn. The default value is 500.
 
-`--niters`: Specify the number of iterations.  The default value is 100.
+`-niters`: Specify the number of iterations.  The default value is 100.
 
 ## 4. Evaluation
 Topic Coherence: [PMI](https://github.com/jhlau/topic_interpretability).
