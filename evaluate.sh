@@ -5,7 +5,7 @@ data_path="./datasets"
 result_path="./results"
 
 # Tweet, GoogleNews, SearchSnippets
-dataset=SearchSnippets
+dataset=Tweet
 
 topicCoherence_metric="pmi"
 wiki_dir="${data_path}/${dataset}/word_wiki"

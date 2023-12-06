@@ -1,13 +1,12 @@
 # Run APUDMM
-
 project_path=$(pwd)
 data_path="./datasets"
 result_path="./results"
 
 algorithm=APUDMM
 beta=0.01
-# Tweet, GoogleNews : 0.8; SearchSnippets : 0.7
-dataset=GoogleNews
+# Tweet : 0.8; GoogleNews : 0.8; SearchSnippets : 0.7
+dataset=Tweet
 threshold=0.8
 
 K=50

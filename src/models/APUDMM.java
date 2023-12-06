@@ -148,7 +148,7 @@ public class APUDMM {
         folderPath = pathToResult;
         File dir = new File(folderPath);
         if (!dir.exists())
-            dir.mkdir();
+            dir.mkdirs();
 
         System.out.println("Reading topic modeling corpus: " + pathToCorpus);
 
