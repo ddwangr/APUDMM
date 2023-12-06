@@ -17,13 +17,10 @@ Taking Tweet as an example, the final dataset file path is as follows.
 >datasets
 
 >> Tweet
->>> word_wiki
-	
->>> Tweet.txt
-
->>> Tweet_vocab.txt
-
->>> Tweet_Word2VecSim.txt
+	>>> word_wiki
+	>>> Tweet.txt
+	>>> Tweet_vocab.txt
+	>>> Tweet_Word2VecSim.txt
 
 ## 3. Run APU-DMM
     bash run.sh
